@@ -1,0 +1,251 @@
+{
+  "users": [
+    "owner",
+    "maya",
+    "leo",
+    "zoe",
+    "jil"
+  ],
+  "anchorMonday": "2026-11-02",
+  "items": [
+    {
+      "id": "1",
+      "owner": "maya",
+      "title": "Dune: Part Two",
+      "done": true,
+      "createdAt": 1794198818912,
+      "watchedAt": 1794205932915,
+      "rating": null,
+      "review": ""
+    },
+    {
+      "id": "2",
+      "owner": "leo",
+      "title": "Dune: Part Two",
+      "done": false,
+      "createdAt": 1794198819912
+    },
+    {
+      "id": "3",
+      "owner": "zoe",
+      "title": "Dune: Part Two",
+      "done": false,
+      "createdAt": 1794198820912
+    },
+    {
+      "id": "4",
+      "owner": "owner",
+      "title": "Past Lives",
+      "done": false,
+      "createdAt": 1794198821912
+    },
+    {
+      "id": "5",
+      "owner": "maya",
+      "title": "Past Lives",
+      "done": true,
+      "createdAt": 1794198822012,
+      "watchedAt": 1794205933372,
+      "rating": null,
+      "review": ""
+    },
+    {
+      "id": "6",
+      "owner": "leo",
+      "title": "Across the Spider-Verse",
+      "done": false,
+      "createdAt": 1794198822112
+    },
+    {
+      "id": "7",
+      "owner": "zoe",
+      "title": "Across the Spider-Verse",
+      "done": false,
+      "createdAt": 1794198822212
+    },
+    {
+      "id": "8",
+      "owner": "owner",
+      "title": "Across the Spider-Verse",
+      "done": true,
+      "rating": 4,
+      "review": "Fun, colourful, never boring.",
+      "createdAt": 1794198822312,
+      "watchedAt": 1794198822312
+    },
+    {
+      "id": "9",
+      "owner": "maya",
+      "title": "In the Mood for Love",
+      "done": true,
+      "rating": 2,
+      "review": "So beautiful. The music says more than words.",
+      "createdAt": 1794198822412,
+      "watchedAt": 1794205822558
+    },
+    {
+      "id": "11",
+      "owner": "leo",
+      "title": "In the Mood for Love",
+      "done": true,
+      "rating": 5,
+      "review": "Slow and perfect for a rainy night.",
+      "createdAt": 1794198822612,
+      "watchedAt": 1794198822612
+    },
+    {
+      "id": "12",
+      "owner": "maya",
+      "title": "Perfect Days",
+      "done": true,
+      "rating": 2,
+      "review": "whatver",
+      "createdAt": 1794198822712,
+      "watchedAt": 1794205831805
+    },
+    {
+      "id": "13",
+      "owner": "zoe",
+      "title": "Perfect Days",
+      "done": true,
+      "rating": 4,
+      "review": "I was not expecting the ending to hit like that.",
+      "createdAt": 1794198822812,
+      "watchedAt": 1794198822812
+    },
+    {
+      "id": "14",
+      "owner": "owner",
+      "title": "Perfect Days",
+      "done": true,
+      "rating": 5,
+      "review": "",
+      "createdAt": 1794198822912,
+      "watchedAt": 1794198822912
+    },
+    {
+      "id": "53bf5c8a-7aed-4026-aa78-96986b9b398f",
+      "owner": "zoe",
+      "title": "Past Lives",
+      "done": true,
+      "createdAt": 1794201112487,
+      "watchedAt": 1794201112487,
+      "rating": 4,
+      "review": "Great"
+    },
+    {
+      "id": "1a68814e-833c-4de6-8f51-4f5df957a347",
+      "owner": "maya",
+      "title": "Spiderman",
+      "done": true,
+      "createdAt": 1794205913182,
+      "watchedAt": 1794208815052
+    },
+    {
+      "id": "31973bf0-0c70-452d-bdb8-3957385dade5",
+      "owner": "maya",
+      "title": "dil ka chen",
+      "done": false,
+      "createdAt": 1794205913182,
+      "watchedAt": 1794208813388
+    },
+    {
+      "id": "18098175-d30c-4842-8892-da1444686ce0",
+      "owner": "maya",
+      "title": "whatver",
+      "done": true,
+      "createdAt": 1794205913182,
+      "watchedAt": 1794207505362
+    },
+    {
+      "id": "251fd6e1-22df-4f9b-8913-24289bfe4b55",
+      "owner": "maya",
+      "title": "Harry Potter and the Deathly Hollows",
+      "done": false,
+      "createdAt": 1794205913182
+    },
+    {
+      "id": "1c21673a-97bf-494b-a336-9296cd4f4bf9",
+      "owner": "maya",
+      "title": "Avengers: Endgame",
+      "done": false,
+      "createdAt": 1794205913183,
+      "watchedAt": 1794208817205
+    },
+    {
+      "id": "f3167651-8240-4ed9-b0a5-9b175499e131",
+      "owner": "maya",
+      "title": "Airplane!",
+      "done": true,
+      "createdAt": 1794207026905,
+      "watchedAt": 1794208563674
+    },
+    {
+      "id": "c03ce829-ba3b-4cff-adfc-f3fe469e7293",
+      "owner": "maya",
+      "title": "The Break-Up",
+      "done": false,
+      "createdAt": 1794207026906
+    },
+    {
+      "id": "9c289d33-9677-4d7f-8d73-bc9c317f7f1f",
+      "owner": "maya",
+      "title": "The Invention of Lying",
+      "done": true,
+      "createdAt": 1794207026906,
+      "watchedAt": 1794208811791
+    },
+    {
+      "id": "ee001004-4d38-4ee6-956d-2899a7d644bb",
+      "owner": "maya",
+      "title": "Noises Off",
+      "done": true,
+      "createdAt": 1794207026906,
+      "watchedAt": 1794208565450
+    },
+    {
+      "id": "94692b26-9358-4ee1-a581-513ead832fce",
+      "owner": "maya",
+      "title": "Office Space",
+      "done": true,
+      "createdAt": 1794207026906,
+      "watchedAt": 1794208564330
+    },
+    {
+      "id": "cb9da7db-bf57-4336-959e-86e7e19dfd24",
+      "owner": "owner",
+      "title": "Airplane!",
+      "done": false,
+      "createdAt": 1794207348249
+    },
+    {
+      "id": "2e76599c-cc61-46fa-847d-97f06596a8e8",
+      "owner": "owner",
+      "title": "The Break-Up",
+      "done": false,
+      "createdAt": 1794207348250
+    },
+    {
+      "id": "492abdb2-2c3b-4a9f-8ec1-5fe09e2f9d4f",
+      "owner": "owner",
+      "title": "The Invention of Lying",
+      "done": false,
+      "createdAt": 1794207348250
+    },
+    {
+      "id": "3ae1d2c0-e4b0-41dd-b0f1-b8d19e3318c1",
+      "owner": "owner",
+      "title": "Noises Off",
+      "done": false,
+      "createdAt": 1794207348251
+    },
+    {
+      "id": "4e880acd-3090-4243-ad59-f016fabf4077",
+      "owner": "owner",
+      "title": "Office Space",
+      "done": false,
+      "createdAt": 1794207348251
+    }
+  ],
+  "calendar": []
+}

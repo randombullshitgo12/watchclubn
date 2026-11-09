@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Olfrens Watch Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+
+<section id="signIn" class="sign-in">
+  <div class="panel">
+    <h1>Get inside</h1>
+    <form id="loginForm" class="form-card">
+      <label>Your name <input id="loginName" placeholder="Your name" autocomplete="username" required/></label>
+      <label>Club password <input id="loginPass" type="password" placeholder="Password" required/></label>
+      <button class="primary" type="submit">Get inside</button>
+      <p id="loginError" class="error" hidden></p>
+    </form>
+  </div>
+</section>
+
+<div id="app" hidden>
+  <div class="panel" id="chrome">
+    <div class="top-row"><h1 class="brand">OLFRENS WATCH CLUB</h1><button id="addBtn" class="primary add-header">Add to Watchlist</button></div>
+  </div>
+
+  <main id="home" class="panel">
+    <section id="weekBanner" class="card red-card">
+      <p class="kicker">This week</p>
+      <h2 id="currentTitle">—</h2>
+      <p id="currentMeta" class="meta"></p>
+    </section>
+
+    <div id="friendsHome">
+      <section class="card">
+        <div id="friends" class="friends"></div>
+      </section>
+    </div>
+
+    <div id="personView" hidden>
+      <div class="back-row"><button id="backBtn" class="small-red">Back</button></div>
+      <div id="personHero" class="person-hero">
+        <span id="personPill" class="person-pill">LIST</span>
+        <h3 id="personTitle" class="person-title"></h3>
+        <p id="personSub" class="meta sub"></p>
+      </div>
+      <ul id="personList" class="items"></ul>
+      <p id="personEmpty" class="muted" hidden>Nothing here yet.</p>
+    </div>
+  </main>
+
+  <main id="addComposer" class="panel composer" hidden>
+    <div class="composer-top">
+      <button id="cancelAddBtn" class="small-red">Back</button>
+      <span></span>
+    </div>
+    <section class="card">
+      <h3>Add to Watchlist</h3>
+      <p class="meta">One movie per line. Paste a bunch at once — trailing commas are removed.</p>
+      <textarea id="bulkText" class="big-text" placeholder="Dune: Part Two&#10;Past Lives,&#10;Spider-Verse" style="min-height:280px"></textarea>
+      <p id="bulkError" class="error" hidden></p>
+      <p id="bulkResult" class="hint" hidden></p>
+      <button id="bulkPostBtn" class="primary" style="width:100%;margin-top:12px">Add movies</button>
+    </section>
+  </main>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>
